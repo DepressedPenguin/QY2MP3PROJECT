@@ -1,0 +1,26 @@
+.copyright_section {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+}
+
+.space_between_bottom {
+  margin-bottom: 10px;
+}
+
+li {
+  margin-left: 30px;
+}
+
+.p_copy {
+  margin-top: 15px;
+}
+
+#headline_copyright {
+  border: 1px solid #191911;
+  background-color: #191919;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */

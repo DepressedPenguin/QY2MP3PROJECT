@@ -1,0 +1,25 @@
+.donation_section {
+  width: 60%;
+  height: 110px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_donation {
+  width: 90%;
+  height: 90%;
+  background-color: #191919;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#paypal_p {
+  text-decoration: none;
+  list-style-type: none;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=style.css.map */

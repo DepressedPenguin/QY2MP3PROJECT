@@ -1,0 +1,84 @@
+.Guide {
+  border-radius: 5px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.main_guide {
+  width: 100%;
+  height: 100%;
+}
+
+.headline_h1 {
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #191919;
+}
+
+.guide_imgs {
+  font-size: 16px;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px 10px;
+}
+
+.box_show {
+  background-color: #191919;
+  border: 3px solid #191919;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title_pic {
+  width: 100%;
+  height: 18%;
+  font-weight: 200;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic_guide {
+  width: 100%;
+  height: 80%;
+}
+.pic_guide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .Guide {
+    width: 95%;
+  }
+  .headline_h1 {
+    font-size: 0.7rem;
+    border: none;
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  .guide_imgs {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px 10px;
+  }
+  .main_guide {
+    width: 100%;
+    background-color: white;
+  }
+}/*# sourceMappingURL=style.css.map */

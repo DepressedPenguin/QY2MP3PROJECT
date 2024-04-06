@@ -1,0 +1,18 @@
+.tou_section {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+
+.marin_two_sides {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.headline_tou {
+  border: 1px solid black;
+  background-color: #191919;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */

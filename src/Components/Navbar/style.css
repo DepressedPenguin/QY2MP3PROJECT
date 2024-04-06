@@ -1,0 +1,135 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar_header {
+  width: 100%;
+  height: 200px;
+}
+
+.sub_navbar {
+  width: 75%;
+  height: 60px;
+  margin: auto;
+  border-bottom: 1px solid #191919;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.left_home_element {
+  width: 80%;
+  height: 100%;
+}
+
+.dark_mode_lang_icons {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dark_mode_ico {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.split_border {
+  color: white;
+}
+
+.ul_list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.ul_list li {
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.logo {
+  width: 40%;
+  height: 70%;
+  margin: auto;
+}
+.logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.li_remove_deco {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#img_don {
+  margin-top: 6px;
+}
+
+#tag_guide {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.toggle {
+  font-size: 30px;
+  margin-right: 15px;
+  float: left;
+  float: right;
+}
+
+.img_dropdown {
+  width: 99%;
+  margin: auto;
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar_header {
+    height: 300px;
+  }
+  .toggle {
+    margin-left: 20px;
+  }
+  .img_dropdown {
+    display: block;
+    top: 0;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sub_navbar {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .ul_list {
+    display: flex;
+    margin-top: 10px;
+    height: 100%;
+    flex-direction: column;
+  }
+  .logo {
+    display: none;
+  }
+  .dark_mode_lang_icons {
+    width: 100%;
+    margin-left: 20px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,184 @@
+// .SCSS FILE
+* {
+  padding: 0px;
+  margin: 0px;
+}
+// DEFINE SOME VARABLES
+$bgColor: #191919;
+// MIXING DISPLAY FLEX
+@mixin Flex() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// NAVBA STYLE DIV
+.navbar_header {
+  width: 100%;
+  height: 200px;
+  // border: 2px solid red;
+  // background-color: $bgColor;
+}
+
+// sub nav-bar
+.sub_navbar {
+  width: 75%;
+  height: 60px;
+  margin: auto;
+  border-bottom: 1px solid #191919;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+// NAVBAR ELEMENTS 3 DIVS
+.left_home_element {
+  width: 80%;
+  height: 100%;
+}
+
+// DARK MODE ICONS
+.dark_mode_lang_icons {
+  width: 20%;
+  // height: 100%;
+  // transition: 2s, opacity;
+  // opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.dark_mode_ico {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.split_border {
+  color: white;
+}
+
+// UL LIST OF THE NAV MAIN <ul>
+.ul_list {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  //  LI
+  li {
+    list-style-type: none;
+    // color: white;
+    cursor: pointer;
+
+    font-size: 18px;
+  }
+}
+
+.logo {
+  width: 40%;
+  height: 70%;
+  margin: auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.li_remove_deco {
+  text-decoration: none;
+  list-style-type: none;
+  // color: white;
+}
+
+#img_don {
+  margin-top: 6px;
+}
+
+#tag_guide {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+// DROPDOWN ICON
+.toggle {
+  font-size: 30px;
+  margin-right: 15px;
+  float: left;
+  // color: white;
+  float: right;
+}
+
+.img_dropdown {
+  width: 99%;
+  margin: auto;
+  // border: 1px solid red;
+  // background-color: #191919;
+  // border-bottom: 1px solid white;
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  // display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar_header {
+    height: 300px;
+    // border: 1px solid red;
+  }
+
+  .toggle {
+    margin-left: 20px;
+  }
+
+  .img_dropdown {
+    display: block;
+    // border: 1px solid red;
+    top: 0;
+    // width: 95%;
+    padding: 10px;
+    margin: auto;
+    // background-color: #191919;
+    // border-radius: 5px;
+    display: flex;
+    // margin-left: 20px;
+    // margin-top: 10px;
+    justify-content: flex-end;
+  }
+
+  // MAKE FLEX DIRECTION COLUMN
+  .sub_navbar {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .ul_list {
+    display: flex;
+    margin-top: 10px;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .dark_mode_lang_icons {
+    // display: none;
+    width: 100%;
+    margin-left: 20px;
+    // border: 1px solid black;
+    // margin-bottom: 30px;
+  }
+}

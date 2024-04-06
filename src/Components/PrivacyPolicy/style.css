@@ -1,0 +1,18 @@
+.privacy_section {
+  width: 60%;
+  margin: auto;
+  padding: 15px;
+}
+
+.p_top_margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.headline_section_privacy {
+  border: 1px solid #191919;
+  border-radius: 5px;
+  background-color: #191919;
+  color: white;
+  padding: 5px;
+}/*# sourceMappingURL=style.css.map */

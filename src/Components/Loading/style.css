@@ -1,0 +1,125 @@
+.loading_convert {
+  width: 80%;
+  margin: auto;
+  height: 180px;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.deatils_song {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box_deatils {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #191919;
+  box-shadow: 2px 2px 2px #191919;
+  background-color: #191919;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download_song_button {
+  width: 25%;
+  height: 100%;
+  border: 1px solid #191919;
+  box-shadow: 2px 2px 2px #191919;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.img_song {
+  width: 40%;
+  height: 100%;
+  border: 1px solid #191919;
+  box-shadow: 2px 2px 2px #191919;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#mp3_img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#title_song_api {
+  font-weight: 700;
+}
+
+.author_p {
+  font-weight: 600;
+}
+
+.box_deatils_with_btn {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #191919;
+  box-shadow: 2px 2px 2px #191919;
+  background-color: #191919;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.backward_button {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.backward_button button {
+  width: 130px;
+  background-color: #191919;
+  border: 1px solid white;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: white;
+  height: 40px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+  .loading_convert {
+    width: 90%;
+    height: 100%;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .loading_convert .deatils_song {
+    order: -1;
+  }
+  .loading_convert .img_song {
+    width: 100%;
+  }
+  .download_song_button {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

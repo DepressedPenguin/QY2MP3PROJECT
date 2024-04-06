@@ -1,0 +1,39 @@
+// CONTACT US SCSS FILE
+
+.Contact_Us_Section {
+  width: 70%;
+  height: 115px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 90%;
+  grid-gap: 10px 10px;
+  padding: 10px;
+}
+
+.contac_us_boxs {
+  background-color: #191919;
+  border: 1px solid #191919;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .Contact_Us_Section {
+    width: 90%;
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .contac_us_boxs {
+    width: 100%;
+  }
+}
