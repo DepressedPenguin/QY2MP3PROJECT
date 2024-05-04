@@ -62,6 +62,8 @@ export default function Loading({ url, theme }) {
       },
     };
 
+    <code>{JSON.stringify(import.meta.env)}</code>
+
     try {
       const response = await fetch(apiURL, options);
       const result = await response.json();
