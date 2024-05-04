@@ -17,7 +17,7 @@ import History from "./Components/History";
 
 function App() {
   // MAKE CONST FOR DARK MODE
-  const [theme, Settheme] = useState("light");
+  const [theme, Settheme] = useState("dark");
   // HANDL CLICK DARK
   const darkHandler = () => {
     Settheme(theme === "light" ? "dark" : "light");
